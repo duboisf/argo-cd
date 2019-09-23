@@ -20,7 +20,7 @@ spec:
       - name: argocd-repo-server
         image: argoproj/argocd:latest
         imagePullPolicy: Always
-        command:
+        args:
         - argocd-repo-server
         - --redis
         - argocd-redis:6379

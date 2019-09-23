@@ -81,7 +81,8 @@ RUN groupadd -g 999 argocd && \
     apt-get update && \
     apt-get install -y git git-lfs && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    chmod g=u /etc/passwd
 
 COPY hack/git-ask-pass.sh /usr/local/bin/git-ask-pass.sh
 COPY --from=builder /usr/local/bin/ks /usr/local/bin/ks
@@ -89,6 +90,9 @@ COPY --from=builder /usr/local/bin/helm /usr/local/bin/helm
 COPY --from=builder /usr/local/bin/kubectl /usr/local/bin/kubectl
 COPY --from=builder /usr/local/bin/kustomize /usr/local/bin/kustomize
 COPY --from=builder /usr/local/bin/aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
+# script to add current (possibly arbitrary) user to /etc/passwd at runtime
+# (if it's not already there, to be openshift friendly)
+COPY uid_entrypoint.sh /usr/local/bin/uid_entrypoint.sh
 
 # support for mounting configuration from a configmap
 RUN mkdir -p /app/config/ssh && \
@@ -151,3 +155,4 @@ FROM argocd-base
 COPY --from=argocd-build /go/src/github.com/argoproj/argo-cd/dist/argocd* /usr/local/bin/
 COPY --from=argocd-ui ./src/dist/app /shared/app
 
+ENTRYPOINT ["uid_entrypoint.sh"]
