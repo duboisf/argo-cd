@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
 	"github.com/argoproj/pkg/stats"
 	"github.com/go-redis/redis/v8"
 	"github.com/spf13/cobra"

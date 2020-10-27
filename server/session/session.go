@@ -3,7 +3,7 @@ package session
 import (
 	"context"
 
-	util "github.com/argoproj/gitops-engine/pkg/utils/io"
+	util "github.com/duboisf/gitops-engine/pkg/utils/io"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

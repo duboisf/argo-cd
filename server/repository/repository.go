@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/io"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
-	"github.com/argoproj/gitops-engine/pkg/utils/text"
+	"github.com/duboisf/gitops-engine/pkg/utils/io"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
+	"github.com/duboisf/gitops-engine/pkg/utils/text"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/codes"

@@ -12,7 +12,7 @@ import (
 	"github.com/argoproj/argo-cd/common"
 	"github.com/argoproj/argo-cd/util/settings"
 
-	utils "github.com/argoproj/gitops-engine/pkg/utils/io"
+	utils "github.com/duboisf/gitops-engine/pkg/utils/io"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

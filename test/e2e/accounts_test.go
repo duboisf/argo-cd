@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/io"
+	"github.com/duboisf/gitops-engine/pkg/utils/io"
 	"github.com/argoproj/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"

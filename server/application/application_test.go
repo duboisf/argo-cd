@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	synccommon "github.com/argoproj/gitops-engine/pkg/sync/common"
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube/kubetest"
+	synccommon "github.com/duboisf/gitops-engine/pkg/sync/common"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube/kubetest"
 	"github.com/argoproj/pkg/sync"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/ghodss/yaml"

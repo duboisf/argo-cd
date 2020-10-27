@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"

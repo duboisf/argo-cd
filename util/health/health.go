@@ -1,9 +1,9 @@
 package health
 
 import (
-	"github.com/argoproj/gitops-engine/pkg/health"
-	hookutil "github.com/argoproj/gitops-engine/pkg/sync/hook"
-	"github.com/argoproj/gitops-engine/pkg/sync/ignore"
+	"github.com/duboisf/gitops-engine/pkg/health"
+	hookutil "github.com/duboisf/gitops-engine/pkg/sync/hook"
+	"github.com/duboisf/gitops-engine/pkg/sync/ignore"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
 	appv1 "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1"

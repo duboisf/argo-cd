@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
 	"github.com/argoproj/pkg/stats"
 	"github.com/go-redis/redis/v8"
 	log "github.com/sirupsen/logrus"

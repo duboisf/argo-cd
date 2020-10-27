@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
 
 	commands "github.com/argoproj/argo-cd/cmd/argocd/commands"
 

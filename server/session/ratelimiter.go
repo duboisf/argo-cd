@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	util "github.com/argoproj/gitops-engine/pkg/utils/io"
+	util "github.com/duboisf/gitops-engine/pkg/utils/io"
 	log "github.com/sirupsen/logrus"
 )
 

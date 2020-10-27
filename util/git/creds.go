@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	argoio "github.com/argoproj/gitops-engine/pkg/utils/io"
+	argoio "github.com/duboisf/gitops-engine/pkg/utils/io"
 	log "github.com/sirupsen/logrus"
 
 	certutil "github.com/argoproj/argo-cd/util/cert"

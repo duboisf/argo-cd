@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/argoproj/gitops-engine/pkg/sync/common"
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
+	. "github.com/duboisf/gitops-engine/pkg/sync/common"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 

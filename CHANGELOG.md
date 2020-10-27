@@ -65,7 +65,7 @@ The enhancement allows configuring an exception list in Orphaned Resources setti
 
 ### GitOps Engine
 
-As part of 1.6 release, the core Argo CD functionality has been moved into [GitOps Engine](https://github.com/argoproj/gitops-engine).
+As part of 1.6 release, the core Argo CD functionality has been moved into [GitOps Engine](https://github.com/duboisf/gitops-engine).
 GitOps Engine is a reusable library that empowers you to quickly build specialized tools that implement specific GitOps
 use cases, such as bootstrapping a Kubernetes cluster, or decentralized management of namespaces.
 

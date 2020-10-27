@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	argoio "github.com/argoproj/gitops-engine/pkg/utils/io"
+	argoio "github.com/duboisf/gitops-engine/pkg/utils/io"
 	"github.com/stretchr/testify/assert"
 
 	repositorypkg "github.com/argoproj/argo-cd/pkg/apiclient/repository"

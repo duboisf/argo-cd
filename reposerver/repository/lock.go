@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	ioutil "github.com/argoproj/gitops-engine/pkg/utils/io"
+	ioutil "github.com/duboisf/gitops-engine/pkg/utils/io"
 )
 
 func NewRepositoryLock() *repositoryLock {

@@ -3,7 +3,7 @@ package session
 import (
 	"testing"
 
-	util "github.com/argoproj/gitops-engine/pkg/utils/io"
+	util "github.com/duboisf/gitops-engine/pkg/utils/io"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/argoproj/argo-cd/util/session"

@@ -8,7 +8,7 @@ import (
 
 	argoexec "github.com/argoproj/pkg/exec"
 
-	tracing "github.com/argoproj/gitops-engine/pkg/utils/tracing"
+	tracing "github.com/duboisf/gitops-engine/pkg/utils/tracing"
 )
 
 var timeout time.Duration

@@ -58,17 +58,17 @@ That includes more metrics, out of the box alerts and a cluster management user 
 
 ### GitOps Engine Enhancements
 
-The [GitOps Engine](https://github.com/argoproj/gitops-engine) is a library that implements core GitOps functions such as K8S resource reconciliation and diffing.
+The [GitOps Engine](https://github.com/duboisf/gitops-engine) is a library that implements core GitOps functions such as K8S resource reconciliation and diffing.
 A lot of Argo CD features are still not available in GitOps engine. The following features have to be contributed to the GitOps Engine:
 
 * an ability to customize resources health assessment and existing CRD health [assessment functions](https://github.com/argoproj/argo-cd/tree/master/resource_customizations).
 * resource diffing [customization](https://argoproj.github.io/argo-cd/user-guide/diffing/).
 * config management [tools](https://argoproj.github.io/argo-cd/user-guide/application_sources/) integration
-* unified syncing annotations [argoproj/gitops-engine#43](https://github.com/argoproj/gitops-engine/issues/43)
+* unified syncing annotations [duboisf/gitops-engine#43](https://github.com/argoproj/gitops-engine/issues/43)
 
 ### GitOps Agent
 
-[GitOps Agent](https://github.com/argoproj/gitops-engine/tree/master/agent) is a continuation of GitOps engine work. The GitOps Agent leverages the GitOps Engine and provides
+[GitOps Agent](https://github.com/duboisf/gitops-engine/tree/master/agent) is a continuation of GitOps engine work. The GitOps Agent leverages the GitOps Engine and provides
 access to many engine features via a simple CLI interface.
 
 ### Config Management Tools Integrations

@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/argoproj/gitops-engine/pkg/health"
-	. "github.com/argoproj/gitops-engine/pkg/sync/common"
-	. "github.com/argoproj/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/health"
+	. "github.com/duboisf/gitops-engine/pkg/sync/common"
+	. "github.com/duboisf/gitops-engine/pkg/utils/errors"
 
 	. "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1"
 	. "github.com/argoproj/argo-cd/test/e2e/fixture"

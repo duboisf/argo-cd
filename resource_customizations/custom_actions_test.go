@@ -11,7 +11,7 @@ import (
 
 	"github.com/undefinedlabs/go-mpatch"
 
-	"github.com/argoproj/gitops-engine/pkg/diff"
+	"github.com/duboisf/gitops-engine/pkg/diff"
 	"github.com/ghodss/yaml"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

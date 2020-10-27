@@ -19,9 +19,9 @@ import (
 	// nolint:staticcheck
 	golang_proto "github.com/golang/protobuf/proto"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/errors"
-	"github.com/argoproj/gitops-engine/pkg/utils/io"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/duboisf/gitops-engine/pkg/utils/errors"
+	"github.com/duboisf/gitops-engine/pkg/utils/io"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
 	"github.com/argoproj/pkg/jwt/zjwt"
 	"github.com/argoproj/pkg/sync"
 	"github.com/dgrijalva/jwt-go"

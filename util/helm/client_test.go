@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/Masterminds/semver"
-	"github.com/argoproj/gitops-engine/pkg/utils/io"
+	"github.com/duboisf/gitops-engine/pkg/utils/io"
 	"github.com/stretchr/testify/assert"
 )
 

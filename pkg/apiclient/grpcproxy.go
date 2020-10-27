@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	argocderrors "github.com/argoproj/gitops-engine/pkg/utils/errors"
-	argoio "github.com/argoproj/gitops-engine/pkg/utils/io"
+	argocderrors "github.com/duboisf/gitops-engine/pkg/utils/errors"
+	argoio "github.com/duboisf/gitops-engine/pkg/utils/io"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/health"
+	"github.com/duboisf/gitops-engine/pkg/health"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"

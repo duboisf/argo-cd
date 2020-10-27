@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/diff"
+	"github.com/duboisf/gitops-engine/pkg/diff"
 	"github.com/ghodss/yaml"
 	log "github.com/sirupsen/logrus"
 	apiv1 "k8s.io/api/core/v1"

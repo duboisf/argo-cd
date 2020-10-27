@@ -3,7 +3,7 @@ package normalizers
 import (
 	"encoding/json"
 
-	"github.com/argoproj/gitops-engine/pkg/diff"
+	"github.com/duboisf/gitops-engine/pkg/diff"
 	jsonpatch "github.com/evanphx/json-patch"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/argoproj/gitops-engine/pkg/health"
-	synccommon "github.com/argoproj/gitops-engine/pkg/sync/common"
+	"github.com/duboisf/gitops-engine/pkg/health"
+	synccommon "github.com/duboisf/gitops-engine/pkg/sync/common"
 	"github.com/ghodss/yaml"
 	"github.com/google/go-cmp/cmp"
 	"github.com/robfig/cron"

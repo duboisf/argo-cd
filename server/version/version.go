@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
 	"github.com/golang/protobuf/ptypes/empty"
 	"golang.org/x/net/context"
 

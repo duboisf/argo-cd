@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"sync"
 
-	clustercache "github.com/argoproj/gitops-engine/pkg/cache"
-	"github.com/argoproj/gitops-engine/pkg/health"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	clustercache "github.com/duboisf/gitops-engine/pkg/cache"
+	"github.com/duboisf/gitops-engine/pkg/health"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sync/semaphore"
 	v1 "k8s.io/api/core/v1"

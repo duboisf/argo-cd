@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/duboisf/gitops-engine/pkg/utils/kube"
 	"github.com/argoproj/pkg/errors"
 	"github.com/ghodss/yaml"
 	"github.com/stretchr/testify/assert"
